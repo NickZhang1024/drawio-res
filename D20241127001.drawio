@@ -1,23 +1,31 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.1">
   <diagram name="第 1 页" id="9gKRLKpU7UaqGYKgKach">
-    <mxGraphModel dx="2901" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3267" dy="1332" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dfDXPhEQMeUIiF0N_-AT-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-25" y="820" width="1230" height="10" as="geometry" />
+          <mxGeometry x="-63" y="820" width="1755" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="dfDXPhEQMeUIiF0N_-AT-1" value="viewsine-fep" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="10" y="545" width="260" height="80" as="geometry" />
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classicThin;startFill=1;" edge="1" parent="1" source="dfDXPhEQMeUIiF0N_-AT-1" target="dfDXPhEQMeUIiF0N_-AT-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-86" value="MQTT Broker 订阅/发送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfDXPhEQMeUIiF0N_-AT-83">
+          <mxGeometry x="-0.087" y="-3" relative="1" as="geometry">
+            <mxPoint x="5" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-1" value="&lt;div&gt;通讯前置服务&lt;/div&gt;viewsine-fep" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-28" y="545" width="260" height="80" as="geometry" />
         </mxCell>
         <mxCell id="dfDXPhEQMeUIiF0N_-AT-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.892;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dfDXPhEQMeUIiF0N_-AT-2" target="dfDXPhEQMeUIiF0N_-AT-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dfDXPhEQMeUIiF0N_-AT-2" value="电信CTWing平台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="280" y="690" width="120" height="60" as="geometry" />
+          <mxGeometry x="242" y="690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dfDXPhEQMeUIiF0N_-AT-3" value="移动OneNet平台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="120" y="690" width="120" height="60" as="geometry" />
+          <mxGeometry x="82" y="690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dfDXPhEQMeUIiF0N_-AT-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.281;exitY=-0.011;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dfDXPhEQMeUIiF0N_-AT-7" target="dfDXPhEQMeUIiF0N_-AT-2">
           <mxGeometry relative="1" as="geometry" />
@@ -29,7 +37,7 @@
         </mxCell>
         <mxCell id="dfDXPhEQMeUIiF0N_-AT-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.141;exitY=0.011;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dfDXPhEQMeUIiF0N_-AT-7" target="dfDXPhEQMeUIiF0N_-AT-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="900" as="sourcePoint" />
+            <mxPoint x="142" y="900" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dfDXPhEQMeUIiF0N_-AT-11" value="NB-IoT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfDXPhEQMeUIiF0N_-AT-9">
@@ -43,18 +51,45 @@
         <mxCell id="dfDXPhEQMeUIiF0N_-AT-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dfDXPhEQMeUIiF0N_-AT-3" target="dfDXPhEQMeUIiF0N_-AT-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="180" y="710" />
-              <mxPoint x="160" y="710" />
+              <mxPoint x="142" y="710" />
+              <mxPoint x="122" y="710" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1122" y="437" as="sourcePoint" />
+            <mxPoint x="1392" y="907" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1122" y="460" />
+              <mxPoint x="1257" y="460" />
+              <mxPoint x="1257" y="907" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-70" value="WebSocket下发指令" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfDXPhEQMeUIiF0N_-AT-69">
+          <mxGeometry x="-0.0486" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="dfDXPhEQMeUIiF0N_-AT-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1122" y="375" as="sourcePoint" />
+            <mxPoint x="1620" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-78" value="MQTT Broker 订阅/发送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfDXPhEQMeUIiF0N_-AT-77">
+          <mxGeometry x="0.0973" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dfDXPhEQMeUIiF0N_-AT-21" value="物联网中台（基于JetLinks）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="160" y="400" width="1000" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="dfDXPhEQMeUIiF0N_-AT-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.304;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.061;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dfDXPhEQMeUIiF0N_-AT-7" target="dfDXPhEQMeUIiF0N_-AT-1">
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.304;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.043;exitY=0.056;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dfDXPhEQMeUIiF0N_-AT-7" target="dfDXPhEQMeUIiF0N_-AT-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="89" y="955" as="sourcePoint" />
-            <mxPoint x="-50" y="670" as="targetPoint" />
+            <mxPoint x="51" y="955" as="sourcePoint" />
+            <mxPoint x="-88" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dfDXPhEQMeUIiF0N_-AT-28" value="TCP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfDXPhEQMeUIiF0N_-AT-27">
@@ -62,13 +97,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dfDXPhEQMeUIiF0N_-AT-7" value="&lt;div style=&quot;direction: rtl;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="20" y="950" width="1140" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="dfDXPhEQMeUIiF0N_-AT-31" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.304;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.061;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-31" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.304;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.018;exitY=0.083;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dfDXPhEQMeUIiF0N_-AT-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="51" y="950" as="sourcePoint" />
-            <mxPoint x="50" y="626" as="targetPoint" />
+            <mxPoint x="13" y="950" as="sourcePoint" />
+            <mxPoint x="12" y="626" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dfDXPhEQMeUIiF0N_-AT-32" value="UDP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfDXPhEQMeUIiF0N_-AT-31">
@@ -76,10 +108,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dfDXPhEQMeUIiF0N_-AT-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.472;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.948;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dfDXPhEQMeUIiF0N_-AT-7">
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.472;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.652;exitY=0.056;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dfDXPhEQMeUIiF0N_-AT-7">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1100" y="940.9299999999998" as="sourcePoint" />
-            <mxPoint x="1100.6399999999999" y="479.99999999999994" as="targetPoint" />
+            <mxPoint x="1062" y="940.9299999999998" as="sourcePoint" />
+            <mxPoint x="1062.6399999999999" y="479.99999999999994" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dfDXPhEQMeUIiF0N_-AT-38" value="TCP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfDXPhEQMeUIiF0N_-AT-37">
@@ -87,13 +119,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dfDXPhEQMeUIiF0N_-AT-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.474;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.474;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.614;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dfDXPhEQMeUIiF0N_-AT-7">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1040" y="950" as="sourcePoint" />
-            <mxPoint x="1039.9999999999998" y="479.99999999999994" as="targetPoint" />
+            <mxPoint x="1002" y="950" as="sourcePoint" />
+            <mxPoint x="1001.9999999999998" y="479.99999999999994" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1040" y="716" />
-              <mxPoint x="1041" y="716" />
+              <mxPoint x="1001" y="716" />
+              <mxPoint x="1003" y="716" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -102,13 +134,13 @@
             <mxPoint y="-54" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dfDXPhEQMeUIiF0N_-AT-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.474;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.474;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.578;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dfDXPhEQMeUIiF0N_-AT-7">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="980" y="950" as="sourcePoint" />
-            <mxPoint x="979.9999999999998" y="479.99999999999994" as="targetPoint" />
+            <mxPoint x="942" y="950" as="sourcePoint" />
+            <mxPoint x="941.9999999999998" y="479.99999999999994" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="980" y="716" />
-              <mxPoint x="981" y="716" />
+              <mxPoint x="942" y="716" />
+              <mxPoint x="943" y="716" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -117,13 +149,13 @@
             <mxPoint y="-54" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dfDXPhEQMeUIiF0N_-AT-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.474;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.474;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.537;exitY=0.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dfDXPhEQMeUIiF0N_-AT-7">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="920" y="950" as="sourcePoint" />
-            <mxPoint x="919.9999999999998" y="479.99999999999994" as="targetPoint" />
+            <mxPoint x="875" y="950" as="sourcePoint" />
+            <mxPoint x="874.9999999999998" y="479.99999999999994" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="920" y="716" />
-              <mxPoint x="921" y="716" />
+              <mxPoint x="873" y="716" />
+              <mxPoint x="875" y="716" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -132,20 +164,161 @@
             <mxPoint y="-54" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dfDXPhEQMeUIiF0N_-AT-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.474;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.474;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.495;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="840" y="950" as="sourcePoint" />
-            <mxPoint x="839.9999999999998" y="479.99999999999994" as="targetPoint" />
+            <mxPoint x="815.3499999999998" y="990" as="sourcePoint" />
+            <mxPoint x="813.6499999999997" y="476.99999999999994" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="840" y="716" />
-              <mxPoint x="841" y="716" />
+              <mxPoint x="815.65" y="713" />
+              <mxPoint x="813.65" y="713" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dfDXPhEQMeUIiF0N_-AT-54" value="HTTP推送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfDXPhEQMeUIiF0N_-AT-53">
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-54" value="CoAP服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfDXPhEQMeUIiF0N_-AT-53">
           <mxGeometry x="0.1541" y="-4" relative="1" as="geometry">
             <mxPoint y="-54" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1392" y="890" as="sourcePoint" />
+            <mxPoint x="1122" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1320" y="890" />
+              <mxPoint x="1320" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-68" value="HTTP推送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfDXPhEQMeUIiF0N_-AT-67">
+          <mxGeometry x="0.1726" y="1" relative="1" as="geometry">
+            <mxPoint y="76" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="dfDXPhEQMeUIiF0N_-AT-55" target="dfDXPhEQMeUIiF0N_-AT-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-76" value="MQTT Broker 订阅/发送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfDXPhEQMeUIiF0N_-AT-74">
+          <mxGeometry x="0.0317" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-55" value="场站SCADA边缘采集服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1392" y="880" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-7" value="&lt;div style=&quot;direction: rtl;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-18" y="980" width="1660" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.863;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dfDXPhEQMeUIiF0N_-AT-61" target="dfDXPhEQMeUIiF0N_-AT-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1572" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-66" value="ModBus-RTU" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfDXPhEQMeUIiF0N_-AT-62">
+          <mxGeometry x="0.7218" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dfDXPhEQMeUIiF0N_-AT-61" target="dfDXPhEQMeUIiF0N_-AT-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-61" value="场站SCADA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1322" y="990" width="310" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.654;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dfDXPhEQMeUIiF0N_-AT-61" target="dfDXPhEQMeUIiF0N_-AT-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dfDXPhEQMeUIiF0N_-AT-61" target="dfDXPhEQMeUIiF0N_-AT-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=classicThin;startFill=1;" edge="1" parent="1" source="dfDXPhEQMeUIiF0N_-AT-55" target="dfDXPhEQMeUIiF0N_-AT-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-72" value="MQTT直连" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfDXPhEQMeUIiF0N_-AT-71">
+          <mxGeometry x="-0.4522" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-73" value="公司自建&lt;div&gt;MQTT代理服务器&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.474;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.495;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="762" y="990" as="sourcePoint" />
+            <mxPoint x="759.9999999999998" y="476.99999999999994" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="762" y="713" />
+              <mxPoint x="760" y="713" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-81" value="HTTP推送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfDXPhEQMeUIiF0N_-AT-80">
+          <mxGeometry x="0.1541" y="-4" relative="1" as="geometry">
+            <mxPoint y="-54" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-82" value="公司自建&lt;div&gt;MQTT代理服务器&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.317;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classicThin;startFill=1;" edge="1" parent="1" source="dfDXPhEQMeUIiF0N_-AT-82" target="dfDXPhEQMeUIiF0N_-AT-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-85" value="MQTT Broker 订阅/发送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfDXPhEQMeUIiF0N_-AT-84">
+          <mxGeometry x="-0.7648" y="1" relative="1" as="geometry">
+            <mxPoint x="19" y="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.523;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dfDXPhEQMeUIiF0N_-AT-82" target="dfDXPhEQMeUIiF0N_-AT-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-88" value="MQTT Broker 订阅/发送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfDXPhEQMeUIiF0N_-AT-87">
+          <mxGeometry x="-0.132" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-89" value="第三方平台&lt;div&gt;MQTT代理服务器&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="540" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.573;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classicThin;startFill=1;" edge="1" parent="1" source="dfDXPhEQMeUIiF0N_-AT-89" target="dfDXPhEQMeUIiF0N_-AT-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-91" value="MQTT Broker" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfDXPhEQMeUIiF0N_-AT-90">
+          <mxGeometry x="-0.3749" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classicThin;startFill=1;" edge="1" parent="1" source="dfDXPhEQMeUIiF0N_-AT-89">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="623" y="976" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="800" />
+              <mxPoint x="623" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-93" value="MQTT Broker" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfDXPhEQMeUIiF0N_-AT-92">
+          <mxGeometry x="-0.1713" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-94" value="第三方平台&lt;div&gt;HTTP服务&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="620" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.597;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dfDXPhEQMeUIiF0N_-AT-94" target="dfDXPhEQMeUIiF0N_-AT-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-98" value="HTTP推送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfDXPhEQMeUIiF0N_-AT-95">
+          <mxGeometry x="-0.0261" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.421;entryY=0.046;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classicThin;startFill=1;" edge="1" parent="1" source="dfDXPhEQMeUIiF0N_-AT-94" target="dfDXPhEQMeUIiF0N_-AT-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-100" value="业务中台服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-28" y="170" width="1648" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-101" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2" y="210" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
