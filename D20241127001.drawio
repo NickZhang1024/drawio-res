@@ -49,7 +49,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dfDXPhEQMeUIiF0N_-AT-21" value="物联网中台（基于JetLinks）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="200" y="400" width="960" height="80" as="geometry" />
+          <mxGeometry x="160" y="400" width="1000" height="80" as="geometry" />
         </mxCell>
         <mxCell id="dfDXPhEQMeUIiF0N_-AT-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.304;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.061;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dfDXPhEQMeUIiF0N_-AT-7" target="dfDXPhEQMeUIiF0N_-AT-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
