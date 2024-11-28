@@ -231,7 +231,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dfDXPhEQMeUIiF0N_-AT-100" value="业务中台服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-28" y="130" width="588" height="110" as="geometry" />
+          <mxGeometry x="-28" y="130" width="588" height="190" as="geometry" />
         </mxCell>
         <mxCell id="dfDXPhEQMeUIiF0N_-AT-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="dfDXPhEQMeUIiF0N_-AT-101" target="dfDXPhEQMeUIiF0N_-AT-108">
           <mxGeometry relative="1" as="geometry" />
@@ -239,7 +239,7 @@
         <mxCell id="dfDXPhEQMeUIiF0N_-AT-101" value="下发指令&lt;div&gt;缓存管理服务&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-10" y="160" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dfDXPhEQMeUIiF0N_-AT-102" value="临时计费服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-102" value="&lt;font color=&quot;#ff0000&quot;&gt;临时&lt;/font&gt;计费服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="160" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dfDXPhEQMeUIiF0N_-AT-103" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -520,7 +520,7 @@
         <mxCell id="dfDXPhEQMeUIiF0N_-AT-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.789;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="dfDXPhEQMeUIiF0N_-AT-159" target="dfDXPhEQMeUIiF0N_-AT-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dfDXPhEQMeUIiF0N_-AT-163" value="统一设备对外接口服务" style="rounded=0;fillColor=#f5f5f5;strokeColor=#666666;verticalAlign=middle;flipV=1;textDirection=vertical-lr;spacingTop=0;spacing=2;spacingBottom=0;spacingRight=0;fontFamily=Helvetica;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;" vertex="1" parent="1">
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-163" value="统一设备对外接口服务" style="rounded=0;fillColor=#f5f5f5;strokeColor=#666666;verticalAlign=middle;flipV=1;textDirection=vertical-lr;spacingTop=0;spacing=2;spacingBottom=0;spacingRight=0;fontFamily=Helvetica;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="1720" y="-80" width="40" height="560" as="geometry" />
         </mxCell>
         <mxCell id="dfDXPhEQMeUIiF0N_-AT-165" value="运行实例" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -535,11 +535,8 @@
         <mxCell id="dfDXPhEQMeUIiF0N_-AT-168" value="基础底座实例" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="695" y="226" width="95" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dfDXPhEQMeUIiF0N_-AT-170" value="时序数据库" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="810" y="240" width="220" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="dfDXPhEQMeUIiF0N_-AT-171" value="缓存数据库" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="810" y="165" width="220" height="65" as="geometry" />
+          <mxGeometry x="810" y="165" width="200" height="55" as="geometry" />
         </mxCell>
         <mxCell id="dfDXPhEQMeUIiF0N_-AT-172" value="产品设备管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6BB;strokeColor=#d79b00;gradientColor=#FFD966;" vertex="1" parent="1">
           <mxGeometry x="270" y="390" width="120" height="35" as="geometry" />
@@ -636,6 +633,15 @@
         </mxCell>
         <mxCell id="dfDXPhEQMeUIiF0N_-AT-207" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6BB;strokeColor=#d79b00;gradientColor=#FFD966;" vertex="1" parent="1">
           <mxGeometry x="1500" y="50" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-210" value="文件存储" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="817" y="192" width="200" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-211" value="日志数据库" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="824" y="218.5" width="200" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="dfDXPhEQMeUIiF0N_-AT-212" value="时序数据库" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="831" y="247" width="200" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
