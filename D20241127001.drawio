@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.1">
   <diagram name="第 1 页" id="9gKRLKpU7UaqGYKgKach">
-    <mxGraphModel dx="2891" dy="2276" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2891" dy="2117" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -247,9 +247,6 @@
         </mxCell>
         <mxCell id="dfDXPhEQMeUIiF0N_-AT-104" value="第三方对接服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="160" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="dfDXPhEQMeUIiF0N_-AT-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#FF0000;strokeWidth=2;dashed=1;" edge="1" parent="1" source="dfDXPhEQMeUIiF0N_-AT-108" target="dfDXPhEQMeUIiF0N_-AT-102">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dfDXPhEQMeUIiF0N_-AT-108" value="公司自建&lt;div&gt;MQTT代理服务器&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-28" y="400" width="120" height="60" as="geometry" />
