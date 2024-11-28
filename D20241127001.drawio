@@ -647,7 +647,7 @@
           <mxGeometry x="1850" y="810" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="dfDXPhEQMeUIiF0N_-AT-214" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;设备接出&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1840" y="-80" width="180" height="120" as="geometry" />
+          <mxGeometry x="1800" y="-80" width="180" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
